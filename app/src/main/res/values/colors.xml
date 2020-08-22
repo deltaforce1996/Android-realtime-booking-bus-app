@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#0C1E35</color>
+    <color name="colorAccent">#ff4000</color>
+    <color name="colorText">#ffff</color>
+    <color name="colorHint">#c2c2a3</color>
+    <color name="colorBG">#F3CA00</color>
+    <color name="colorButtomNav">#F0EEE4</color>
+
+    <color name="colorTextView_wait">#ffa31a</color>
+    <color name="colorTextView_succass">#00cc44</color>
+    <color name="colorbtnAlert">#2E8AD2</color>
+    <color name="colorBtn_Add">#ff4000</color>
+    <color name="color_title_bg">#1453AD</color>
+
+</resources>

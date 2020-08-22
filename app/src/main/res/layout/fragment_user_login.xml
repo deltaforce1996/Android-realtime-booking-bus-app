@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alifdeltaforce.realtimebooking.UserLoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="310dp">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:layout_width="172dp"
+                android:layout_height="172dp"
+                android:background="@drawable/logo_main"/>
+
+            <View
+                android:layout_width="172dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/title_main" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/edt_txt_phone"
+            android:textColorHint="@color/colorHint"
+            android:textAlignment="center"
+            android:layout_marginTop="160dp"
+            android:textColor="@color/colorText"
+            android:hint=" Phone Number"
+            android:inputType="number"
+            android:drawableLeft="@mipmap/ic_rdit_phone"
+            android:background="@drawable/round_text"
+            android:layout_width="330dp"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:id="@+id/edt_txt_pass"
+            android:textColorHint="@color/colorHint"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorText"
+            android:hint=" Password"
+            android:inputType="textPassword"
+            android:drawableLeft="@mipmap/ic_edit_pass"
+            android:background="@drawable/round_text"
+            android:layout_width="330dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_marginTop="15dp"
+            android:layout_width="330dp"
+            android:text="LOGIN"
+            android:textColor="@color/colorText"
+            android:background="@drawable/s_bg_button_green"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</FrameLayout>
